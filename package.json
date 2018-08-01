@@ -1,0 +1,23 @@
+{
+  "name": "react-routing",
+  "version": "1.0.0",
+  "main": "build/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "neutrino build",
+    "start": "neutrino start",
+    "watch": "neutrino watch"
+  },
+  "devDependencies": {
+    "@neutrinojs/library": "^8.3.0",
+    "neutrino": "^8.3.0"
+  },
+  "peerDependencies": {
+    "query-string": "^6.1.0",
+    "react-router": "^4.3.1",
+    "recompose": "^0.28.0"
+  },
+  "dependencies": {
+    "react-router-named-routes": "^0.0.23"
+  }
+}
