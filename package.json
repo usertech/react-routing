@@ -5,8 +5,7 @@
   "license": "MIT",
   "scripts": {
     "build": "neutrino build",
-    "start": "neutrino start",
-    "watch": "neutrino watch"
+    "start": "neutrino start"
   },
   "devDependencies": {
     "@neutrinojs/library": "^8.3.0",
@@ -14,10 +13,11 @@
   },
   "peerDependencies": {
     "query-string": "^6.1.0",
+    "react": "^16.4.2",
     "react-router": "^4.3.1",
-    "recompose": "^0.28.0"
+    "recompose": "^0.28.2"
   },
   "dependencies": {
-    "react-router-named-routes": "^0.0.23"
+    "react-router-named-routes": "0.0.23"
   }
 }
