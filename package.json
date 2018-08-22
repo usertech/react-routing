@@ -1,6 +1,6 @@
 {
-  "name": "react-routing",
-  "version": "1.0.0",
+  "name": "@usertech/react-routing",
+  "version": "0.1.0",
   "main": "build/index.js",
   "license": "MIT",
   "scripts": {

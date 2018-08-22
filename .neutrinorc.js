@@ -3,7 +3,7 @@ module.exports = {
 		[
 			'@neutrinojs/library',
 			{
-				name: 'react-routing',
+				name: '@usertech/react-routing',
 			},
 		],
 		(neutrino) => neutrino.config.resolve.modules.add(neutrino.options.source),
