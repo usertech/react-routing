@@ -7,5 +7,6 @@ module.exports = {
 			},
 		],
 		(neutrino) => neutrino.config.resolve.modules.add(neutrino.options.source),
+		'@usertech/neutrino-preset-eslint-prettier',
 	],
 };

@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import { compose, pure, withHandlers } from 'recompose';
 import { BrowserRouter as Router, Switch, Route, withRouter, matchPath } from 'react-router-dom';
-import { withQueryParams, withNavigation } from 'react-routing';
+import { withQueryParams, withNavigation } from '@usertech/react-routing';
 
 import Link from 'components/Link';
 import { ID_ROUTE_ROOT, ID_ROUTE_DASHBOARD, ID_ROUTE_DASHBOARD_SECTION } from './paths';

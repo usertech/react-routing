@@ -1,5 +1,5 @@
 {
-  "name": "examples",
+  "name": "@usertech/react-routing-examples",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -8,23 +8,28 @@
     "start": "neutrino start"
   },
   "dependencies": {
+    "@usertech/neutrino-preset-eslint-prettier": "usertech/neutrino-preset-eslint-prettier#0.0.2",
+    "@usertech/react-routing": "usertech/react-routing",
     "prop-types": "^15.6.2",
     "query-string": "^6.1.0",
-    "react": "^16.4.1",
+    "react": "^16.4.2",
     "react-dom": "^16.4.1",
     "react-hot-loader": "^4.3.4",
     "react-router": "^4.3.1",
     "react-router-dom": "^4.3.1",
-    "react-routing": "../",
-    "recompose": "^0.28.0"
+    "recompose": "0.28"
   },
   "devDependencies": {
     "@neutrinojs/eslint": "^8.3.0",
     "@neutrinojs/react": "^8.3.0",
-    "eslint-config-prettier": "^2.9.0",
+    "babel-eslint": "8",
+    "eslint": "^5.5.0",
+    "eslint-config-prettier": "^3.0.1",
+    "eslint-plugin-babel": "^5.1.0",
+    "eslint-plugin-flowtype": "^2.50.0",
     "eslint-plugin-prettier": "^2.6.2",
-    "eslint-plugin-react": "^7.10.0",
+    "eslint-plugin-react": "^7.11.1",
     "neutrino": "^8.3.0",
-    "prettier": "^1.14.0"
+    "prettier": "^1.14.2"
   }
 }
