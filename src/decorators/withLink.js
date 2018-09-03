@@ -1,7 +1,7 @@
-import { withProps } from 'recompose';
+import { withPropsOnChange } from 'recompose';
 import formatPossiblyNamedLocation from 'utils/formatPossiblyNamedLocation';
 
-const withLink = withProps(({ to }) => {
+const withLink = withPropsOnChange(['to'], ({ to }) => {
 	return { to: formatPossiblyNamedLocation(to) };
 });
 
