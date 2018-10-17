@@ -43,6 +43,10 @@ import { withNavigation } from '@usertech/react-routing';
 
 const Screen = withNavigation(({ navigate }) => {})
 ```
+#### `navigate` function signature
+```javascript
+navigate: (to, replace: boolean) => void
+```
 
 ### `withLink` HOC
 
