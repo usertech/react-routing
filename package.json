@@ -1,6 +1,6 @@
 {
   "name": "@usertech/react-routing",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "build/index.js",
   "license": "MIT",
   "scripts": {
@@ -12,6 +12,7 @@
     "@neutrinojs/library": "^8.3.0",
     "@usertech/neutrino-preset-eslint-prettier": "usertech/neutrino-preset-eslint-prettier#0.0.2",
     "babel-eslint": "8",
+    "babel-preset-env": "^1.7.0",
     "eslint": "^5.5.0",
     "eslint-config-prettier": "^3.0.1",
     "eslint-plugin-babel": "^5.1.0",
